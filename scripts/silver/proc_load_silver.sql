@@ -87,9 +87,9 @@ BEGIN
 		)
 		SELECT 
 			prd_id, 
-			prd_key,
 			REPLACE(SUBSTRING(prd_key, 1, 5), '-', '_') AS cat_id, 
 			SUBSTRING(prd_key, 7, LEN(prd_key)) AS prd_key,
+			prd_name,
 			COALESCE(prd_cost, 0) prd_cost, 
 	
 			CASE UPPER(TRIM(prd_line))
