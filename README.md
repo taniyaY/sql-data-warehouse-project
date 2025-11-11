@@ -2,7 +2,7 @@
 This project demonstrate a comprehensive datawarehouse from building datawarehouse to generating analytical insights and data models 
 🚀 Project Overview
 
-This project is part of my learning journey in data engineering and analytics. The goal is to design and build a modern data warehouse using SQL Server, where sales data from different systems is combined, cleaned, and prepared for business analysis and reporting.
+This project is part of my learning journey and was independently built with data engineering and analytics. The goal is to design and build a modern data warehouse using SQL Server, where sales data from different systems is combined, cleaned, and prepared for business analysis and reporting. Also focuses on data exploration, analytics, and reporting.
 
 🎯 Objectives
 Build a centralized data warehouse to bring together data from multiple business sources.
