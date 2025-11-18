@@ -4,17 +4,17 @@ Stored Procedure: Load Bronze Layer (Source -> Bronze)
 ===============================================================================
 Script Purpose:
  	This procedure performs the ETL (Extract, Transform, Load) process
-	to populate the silver table from the bronze layer.
+	to populate the bronze layer from the sources.
 
 Action Performed: 
-	- Truncate Silver Tables 
-	- Inserts Transformed and Cleansed Data from Bronze Into Silver Tables.
+	- Truncate Bronze Tables 
+	- Inserts Raw Data from Source Into Bronze Tables.
 Parameters:
     None. 
 	  This stored procedure does not accept any parameters or return any values.
 
 Usage Example:
-    EXEC silver.load_silver;
+    EXEC bronze.proc_load_bronze;
 ===============================================================================
 */
 CREATE OR ALTER PROCEDURE bronze.load_bronze AS
