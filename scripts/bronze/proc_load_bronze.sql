@@ -3,8 +3,7 @@
 Stored Procedure: Load Bronze Layer (Source -> Bronze)
 ===============================================================================
 Script Purpose:
- 	This procedure performs the ETL (Extract, Transform, Load) process
-	to populate the bronze layer from the sources.
+ 	This procedure populate the bronze layer from the sources.
 
 Action Performed: 
 	- Truncate Bronze Tables 
